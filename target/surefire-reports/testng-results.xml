@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-17T22:58:03 EEST" name="BookingAutomationSuite" finished-at="2025-08-17T22:58:26 EEST" duration-ms="22362">
+    <groups>
+    </groups>
+    <test started-at="2025-08-17T22:58:03 EEST" name="BookingFlowTest" finished-at="2025-08-17T22:58:26 EEST" duration-ms="22362">
+      <class name="comupnormaltests.BookingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:comupnormaltests.BookingTest@20deea7f]" started-at="2025-08-17T22:58:04 EEST" name="setUp" finished-at="2025-08-17T22:58:05 EEST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookingFlowTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:comupnormaltests.BookingTest@20deea7f]" started-at="2025-08-17T22:58:05 EEST" name="bookingFlowTest" data-provider="bookingDataFromExcel" finished-at="2025-08-17T22:58:25 EEST" duration-ms="20429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alexandria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wed, Oct 8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wed, Oct 15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:comupnormaltests.BookingTest@20deea7f]" started-at="2025-08-17T22:58:25 EEST" name="tearDown" finished-at="2025-08-17T22:58:26 EEST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- comupnormaltests.BookingTest -->
+    </test> <!-- BookingFlowTest -->
+  </suite> <!-- BookingAutomationSuite -->
+</testng-results>

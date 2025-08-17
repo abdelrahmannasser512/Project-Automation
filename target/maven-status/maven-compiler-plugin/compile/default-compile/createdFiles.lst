@@ -1,0 +1,5 @@
+com\upnormal\pages\BasePage.class
+com\upnormal\pages\HomePage.class
+com\upnormal\pages\HotelDetailsPage.class
+com\upnormal\driver\WebDriverFactory.class
+com\upnormal\utils\ExcelUtils.class
